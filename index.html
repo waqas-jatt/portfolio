@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    .navigator{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+
+    }
+    a{
+        padding-top: 20px;
+        text-decoration: none;
+        color: #282828;
+        font-weight: 700;
+        font-family: sans-serif;
+        font-size: 17px;
+    }
+    h2{
+        font-family: sans-serif;
+        padding: 0 20px;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    img{
+        width: 95%;
+        border-radius: 2px;
+    }
+    main div{
+        width: 20%;
+    }
+    #first{
+        height: 380px;
+        object-fit: cover;
+        background-position: cover cover;
+    }
+    h4{
+        font-family: sans-serif;
+        font-weight: 700;
+        text-align: center;
+        font-size: 15px;
+    }
+    p{
+        padding-top: -5px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #282828;
+        font-family: sans-serif;
+    }
+    .intro{
+        text-align: left;
+        margin: 0% 6%;
+        width: 90%;
+        display: block;
+    }
+    .intro h2{
+        font-size: 60px;
+        width: 45%;
+        color: #282828;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    hr{
+        width: 100%;
+    }
+
+    .intro p{
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        color: #282828;
+        padding-left: 30px;
+    }
+</style>
+<body>
+    <main class="intro">
+        <h2>Waqas Sohail's Portfolio</h2>
+        <p>Web Developer</p>
+    </main>
+    <hr>
+
+    <h2>My Projects</h2>
+    <main>
+        <div class="per-proj-cont">
+            <img src="assets/images/nasa.jpg" alt="" id="first">
+            <h4>Track Suit Finder</h4>
+        </div>
+        
+        <div class="per-proj-cont">
+            <img src="assets/images/car.jpg" alt="" id="first">
+            <h4>Tesla Production</h4>
+        </div>
+
+        
+        <div class="per-proj-cont">
+            <img src="assets/images/darkweb.avif" alt="" id="first">
+            <h4>Nouitior Recorder</h4>
+        </div>
+        
+        <div class="per-proj-cont">
+            <img src="assets/images/a.jpg" alt="" id="first">
+            <h4>CyberTruck Parts</h4>
+        </div>
+    </main>
+    <hr>
+    <div class="navigator">
+        <a href="public/contactus.html">Contact Us</a>
+        <a href="public/aboutus.html">About Us</a>
+    </div>
+</body>
+</html>
